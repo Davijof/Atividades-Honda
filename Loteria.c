@@ -13,7 +13,7 @@ int main() {
 
     srand(time(NULL));
 
-    printf("Digite seis numeros entre 1 e 60 separados por espacos: ");
+    printf("Digite seis numeros diferentes entre 1 e 60 separados por espacos: ");
     scanf("%d %d %d %d %d %d", &v[0], &v[1], &v[2], &v[3], &v[4], &v[5]);
 
     do {
