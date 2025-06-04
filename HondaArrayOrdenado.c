@@ -6,14 +6,21 @@
 int funcinit(int func[], int x);
 void bubblesort(int func[], int x);
 
-int main(){
-    int Array[100] = {0};
+int main() {
 
+    int Array[100] = {0};
+    clock_t tempo;
+
+
+    tempo = clock();
     printf("Funcao aleatoria: \n");
     funcinit(Array, 100);
     printf("Ordenada: \n");
     bubblesort(Array, 100);
     printf("\n");
+
+    tempo = clock() - tempo;
+    printf("\nTempo: %f\n", (float)tempo / CLOCKS_PER_SEC);
 
     return 0;
 }
