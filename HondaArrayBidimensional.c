@@ -8,9 +8,9 @@ void funcinit(int x, int func[]);
 
 int main(){
     int linha = 0, coluna = 0;
-    int linha1[5] = {1, 2, 3, 4, 5};
-    int linha2[5] = {1, 2, 3, 4, 5};
-    int linha3[5] = {1, 2, 3, 4, 5};
+    int linha1[5] = {0};
+    int linha2[5] = {0};
+    int linha3[5] = {0};
 
 
     funcinit(5, linha1);
