@@ -1,1 +1,1 @@
-Refatoração de dois exercícios utilizando funções
+Adaptação de dois exercícios utilizando funções.
