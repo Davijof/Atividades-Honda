@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Davi José Oliveira Faria
+
 int main() {
 	float peso = 0.0, altura= 0.0 ,imc = 0.0;
 
