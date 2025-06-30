@@ -89,7 +89,7 @@ int main(){
         }
         if(certos == 4){
             completo = 1;
-            printf("Parabens, voce completou o caca palavras");
+            printf("Parabens, voce completou a palavra cruzada");
         }
 
     }while(completo == 0);
